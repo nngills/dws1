@@ -1,18 +1,89 @@
 @font-face{
-	font-family: 'LeagueGothic';
-	src: url('fonts/LeagueGothic-Regular.otf')
-format('otf');
+	font-family: leaguegothic;
+    src: url(leaguegothic_regular.otf);
 }
+
+/*---general---*/
 
 body{
 	background-color: #FFFFFF;
 }
 
-p{
+h2, h3, li, p, a, img{
+	margin-left: 50px;
+}
+
+/*---text---*/
+
+h1{
+	font-family: LeagueGothic, Arial, sans-serif;
+	font-size: 5em;
+	text-align: center;
+	text-shadow: 3px 3px #a1a1a1;
+	height: 30px;
+}
+
+h2{
+	font-family: LeagueGothic, Arial, sans-serif;
+	font-size: 2em;
+}
+
+h3{
+	font-family: LeagueGothic, Arial, sans-serif;
+	font-size: 1.5em;
+}
+
+p, li, a{
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 0.9em;
 }
 
-h1, h2, h3{
-	font-family: LeagueGothic;
+/*---images---*/
+
+img{
+	display: inline;
+	border: 3px solid #000000;
+	padding: 2px;
+	box-shadow: 4px 4px #666666;
+	border-radius: 3px;
+}
+
+/*---specifics---*/
+
+li{
+	line-height: 140%
+}
+
+ul {
+	list-style-type: square;
+}
+
+#ref{
+	font-style: italic;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+#topLink{
+	margin-left: 500px;
+}
+
+/*----anchor----*/
+
+a:link{
+	color: #0000ff;
+}
+
+a:visited{
+	color: #00008e;
+}
+
+a:hover{
+	color: #ff9900;
+}
+
+a:active{
+	color: #ffff00;
 }
