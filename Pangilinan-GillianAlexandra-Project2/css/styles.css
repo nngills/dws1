@@ -1,0 +1,18 @@
+@font-face{
+	font-family: 'LeagueGothic';
+	src: url('fonts/LeagueGothic-Regular.otf')
+format('otf');
+}
+
+body{
+	background-color: #FFFFFF;
+}
+
+p{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.9em;
+}
+
+h1, h2, h3{
+	font-family: LeagueGothic;
+}
