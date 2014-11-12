@@ -6,11 +6,7 @@
 /*---general---*/
 
 body{
-	background-color: #FFFFFF;
-}
-
-h2, h3, li, p, a, img{
-	margin-left: 50px;
+	background-color: #666;
 }
 
 /*---text---*/
@@ -45,27 +41,18 @@ img{
 	padding: 2px;
 	box-shadow: 4px 4px #666666;
 	border-radius: 3px;
+	width: auto;
 }
 
 /*---specifics---*/
 
+#topLink{
+	text-align: center;
+	margin-left: 350px;
+}
+
 li{
 	line-height: 140%;
-}
-
-#nav_head{
-	margin: 110px auto 50px auto;
-	text-align: center;
-}
-
-#nav{
-	text-align: center;
-	padding-right: 120px;
-	margin-bottom: 50px;
-}
-
-#nav li{
-	display: inline;
 }
 
 #ref{
@@ -76,8 +63,67 @@ li{
 	font-weight: bold;
 }
 
-#topLink{
-	margin-left: 550px;
+/*---HEADER---*/
+
+#header{
+	width: 75%;
+	height: 100px;
+	background-color: lightblue;
+	margin-left: 10%;
+	padding-left: 45px;
+}
+
+#header h1{
+	background-image: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+/*----SIDE NAV----*/
+
+.nav{
+	width: 15%;
+	background-color: pink;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#nav_head{
+	margin: auto;
+}
+
+/*---CONTENT---*/
+
+.content{
+	background-color: green;
+	width:60%;
+	padding-left: 25px;
+	padding-right: 5px;
+	float: left;
+	margin: 5px 5px 20px 10%;
+	overflow: auto;
+}
+
+/*---EXTRA---*/
+
+.extra{
+	clear: both;
+	margin: 10px auto 30px 10%;
+	width: 870px;
+	padding-left: 25px;
+}
+
+.extra ol{
+	margin-left: 20px;
+}
+
+.content, .nav, #header{
+	background-image: url("../images/foxtail/foxtail.png");
+	background-repeat: repeat;
+	background-position: bottom;
 }
 
 /*----anchor----*/
