@@ -6,7 +6,7 @@
 /*---general---*/
 
 body{
-	background-color: #666;
+	background: linear-gradient(#191919, #666);
 }
 
 /*---text---*/
@@ -26,7 +26,7 @@ h2{
 
 h3{
 	font-family: LeagueGothic, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 
 p, li, a{
@@ -45,11 +45,6 @@ img{
 }
 
 /*---specifics---*/
-
-#topLink{
-	text-align: center;
-	margin-left: 350px;
-}
 
 li{
 	line-height: 140%;
@@ -71,12 +66,6 @@ li{
 	background-color: lightblue;
 	margin-left: 10%;
 	padding-left: 45px;
-}
-
-#header h1{
-	background-image: url("../images/icon.png");
-	background-repeat: no-repeat;
-	background-position: left bottom;
 }
 
 /*----SIDE NAV----*/
@@ -107,6 +96,14 @@ li{
 	overflow: auto;
 }
 
+.content h3{
+	background-image: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 35px;
+	padding-left: 40px;
+}
+
 /*---EXTRA---*/
 
 .extra{
@@ -124,6 +121,22 @@ li{
 	background-image: url("../images/foxtail/foxtail.png");
 	background-repeat: repeat;
 	background-position: bottom;
+}
+
+/*---TOPLINK---*/
+
+#topLink{
+	text-align: center;
+	margin-left: 350px;
+	color: #EFEFEF;
+}
+
+#topLink:hover{
+	color: #999;
+}
+
+#topLink:active{
+	color: #E20000;
 }
 
 /*----anchor----*/
