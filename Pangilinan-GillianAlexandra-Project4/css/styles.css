@@ -212,6 +212,10 @@ input:hover, input:focus, textarea:hover, textarea:focus{
 	background-color: #fff799;
 }
 
+#age{
+	width: 35px;
+}
+
 /*---FOOTER---*/
 
 footer{
