@@ -35,7 +35,7 @@ h3{
 	font-size: 1.75em;
 }
 
-p, li, a{
+p, li, a, table{
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 0.9em;
 }
@@ -82,6 +82,7 @@ nav{
 	margin-right: 10%;
 	padding-top: 10px;
 	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 #nav_head{
@@ -92,8 +93,9 @@ nav{
 
 .content{
 	width:60%;
-	padding-left: 25px;
-	padding-right: 5px;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 	float: left;
 	margin: 5px 5px 20px 10%;
 	overflow: auto;
@@ -107,6 +109,54 @@ nav{
 	padding-left: 40px;
 }
 
+/*---TABLE---*/
+
+table{
+	border: 0px;
+	border-collapse: collapse;
+}
+
+tr:hover td, tr:hover th, tr:hover .F, tr:hover .M{
+	background-color: #252525;
+}
+
+th, td{
+	padding: 5px;
+	width: 85px;
+	color: #FFF;
+	background-color: #898989;
+}
+
+.odd th, .odd td{
+	background-color: #636363;
+}
+
+.odd .F{
+	background-color: #ff6699;
+}
+
+.F{
+	background-color: #ff99cc;
+}
+
+.odd .M{
+	background-color: #00aeef;
+}
+
+.M{
+	background-color: #66ccff;
+}
+
+.yr{
+	width: 50px;
+	text-align: center;
+}
+
+td{
+	text-align: right;
+}
+
+
 /*---FOOTER---*/
 
 footer{
@@ -115,7 +165,7 @@ footer{
 	width: 95%;
 	padding: 2px;
 	text-align: center;
-	background-color: darkgrey;
+	background-color: #a1a1a1;
 }
 
 /*---TOPLINK---*/
