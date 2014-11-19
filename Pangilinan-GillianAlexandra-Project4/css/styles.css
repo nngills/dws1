@@ -1,0 +1,151 @@
+@font-face{
+	font-family: leaguegothic;
+    src: url(leaguegothic_regular.otf);
+}
+
+/*---BG---*/
+
+body{
+	background: linear-gradient(#191919, #666);
+}
+
+.content, nav, header{
+	background-image: url("../images/foxtail/foxtail.png");
+	background-repeat: repeat;
+	background-position: bottom;
+}
+
+/*---text---*/
+
+h1{
+	font-family: LeagueGothic, Arial, sans-serif;
+	font-size: 5em;
+	text-align: center;
+	text-shadow: 3px 3px #a1a1a1;
+	height: 30px;
+}
+
+h2{
+	font-family: LeagueGothic, Arial, sans-serif;
+	font-size: 2em;
+}
+
+h3{
+	font-family: LeagueGothic, Arial, sans-serif;
+	font-size: 1.75em;
+}
+
+p, li, a{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.9em;
+}
+
+/*---images---*/
+
+img{
+	border: 3px solid #000000;
+	padding: 2px;
+	box-shadow: 4px 4px #666666;
+	border-radius: 3px;
+	width: auto;
+}
+
+/*---specifics---*/
+
+li{
+	line-height: 140%;
+}
+
+.ref{
+	font-style: italic;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+/*---HEADER---*/
+
+header{
+	width: 75%;
+	height: 100px;
+	margin-left: 10%;
+	padding-left: 45px;
+}
+
+/*----SIDE----*/
+
+nav{
+	width: 15%;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#nav_head{
+	margin: auto;
+}
+
+/*---CONTENT---*/
+
+.content{
+	width:60%;
+	padding-left: 25px;
+	padding-right: 5px;
+	float: left;
+	margin: 5px 5px 20px 10%;
+	overflow: auto;
+}
+
+.content h3{
+	background-image: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 35px;
+	padding-left: 40px;
+}
+
+/*---FOOTER---*/
+
+footer{
+	clear: both;
+	margin: 10px auto;
+	width: 95%;
+	padding: 2px;
+	text-align: center;
+	background-color: darkgrey;
+}
+
+/*---TOPLINK---*/
+
+#topLink{
+	color: #EFEFEF;
+}
+
+#topLink:hover{
+	color: #999;
+}
+
+#topLink:active{
+	color: #E20000;
+}
+
+/*----anchor----*/
+
+a:link{
+	color: #0000ff;
+}
+
+a:visited{
+	color: #00008e;
+}
+
+a:hover{
+	color: #ff9900;
+}
+
+a:active{
+	color: #ffff00;
+}
