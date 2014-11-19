@@ -9,7 +9,7 @@ body{
 	background: linear-gradient(#191919, #666);
 }
 
-.content, nav, header{
+.content, nav, header, form{
 	background-image: url("../images/foxtail/foxtail.png");
 	background-repeat: repeat;
 	background-position: bottom;
@@ -25,17 +25,27 @@ h1{
 	height: 30px;
 }
 
+.content h2, form h2{
+	text-align: left;
+	font-size: 3em;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 h2{
 	font-family: LeagueGothic, Arial, sans-serif;
 	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 h3{
 	font-family: LeagueGothic, Arial, sans-serif;
 	font-size: 1.75em;
+	margin-bottom: 10px;
 }
 
-p, li, a, table{
+p, li, a, table, form{
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 0.9em;
 }
@@ -97,7 +107,7 @@ nav{
 	padding-right: 10px;
 	padding-bottom: 10px;
 	float: left;
-	margin: 5px 5px 20px 10%;
+	margin: 5px 5px 0px 10%;
 	overflow: auto;
 }
 
@@ -127,9 +137,13 @@ th{
 
 th, td{
 	padding: 5px;
-	width: 85px;
+	width: 100px;
 	color: #FFF;
 	background-color: #898989;
+}
+
+td.F, td.M{
+	padding-right: 10px;
 }
 
 .odd th, .odd td{
@@ -163,6 +177,40 @@ td{
 	text-align: right;
 }
 
+/*---FORM---*/
+
+form{
+	clear: both;
+	float: left;
+	width:60%;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	margin: 5px 5px 10px 10%;
+}
+
+#hours{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#hours, .email, #comments, #submitBtn{
+	clear: both;
+	float: left;
+}
+
+label, input, textarea, .gender{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+label, .email, #comments, #hours, #submitBtn{
+	margin-left: 20px;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus{
+	background-color: #fff799;
+}
 
 /*---FOOTER---*/
 

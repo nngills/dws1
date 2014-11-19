@@ -11,47 +11,46 @@
 			<h1 id="top">Gamer</h1>
 		</header>
 		
-		<section class="content">		
-			<h3 id="casual">Casual Gamer</h3>
-			<a href="images/casual-gamers.jpg">
-				<figure>
-					<img src="images/casual-gamers.jpg"
-						alt="Casual gamers playing Wii">
-				</figure>
-			</a>	
-			<article>
-				<blockquote>
-				<p>A casual gamer is a player whose time or interest in playing games is limited. Casual gamers may play games designed for ease of gameplay, or play more involved games in small groupings of time, at a slower pace than hardcore gamers. The genres that casual gamers play vary, and they might not own a specific video game console to play their games. Casual gamer demographics vary greatly from those of other video gamers, as the typical casual gamer is older and more predominantly female. One casual gamer subset is the <q>fitness gamer</q>, who plays motion-based exercise games.
-				</p>
-				</blockquote>
+		<section class="content">
+			<h2>Types of Gamers</h2>
+			<article>		
+				<h3 id="casual">Casual Gamer</h3>
+				<a href="images/casual-gamers.jpg">
+					<figure>
+						<img src="images/casual-gamers.jpg"
+							alt="Casual gamers playing Wii">
+					</figure>
+				</a>	
+					<blockquote>
+						<p>A casual gamer is a player whose time or interest in playing games is limited. Casual gamers may play games designed for ease of gameplay, or play more involved games in small groupings of time, at a slower pace than hardcore gamers. The genres that casual gamers play vary, and they might not own a specific video game console to play their games. Casual gamer demographics vary greatly from those of other video gamers, as the typical casual gamer is older and more predominantly female. One casual gamer subset is the <q>fitness gamer</q>, who plays motion-based exercise games.
+						</p>
+					</blockquote>
 			</article>
-		
-			<h3 id="core">Core Gamer</h3>
-			<a href="images/Boromir.jpg">
-				<figure>
-					<img src="images/Boromir.jpg"
-						alt="One does not simply...">
-				</figure>
-			</a>
 			<article>
-				<blockquote>
-				<p>A core or mid-core gamer is a player with a wider range of interests than a casual gamer and is more likely to enthusiastically play different types of games, but without the amount of time spent and sense of competition of a hardcore gamer. The mid-core gamer enjoys games but may not finish every game they buy, doesn't have time for long <abbr title="Massively Multiplayer Online">MMO</abbr> quests, and is a target consumer. Nintendo president <em>Satoru Iwata</em> stated that they designed the Wii U to cater to core gamers who are in between the casual and hardcore categories.
-				</p>
-				</blockquote>
+				<h3 id="core">Core Gamer</h3>
+				<a href="images/Boromir.jpg">
+					<figure>
+						<img src="images/Boromir.jpg"
+							alt="One does not simply...">
+					</figure>
+				</a>
+					<blockquote>
+						<p>A core or mid-core gamer is a player with a wider range of interests than a casual gamer and is more likely to enthusiastically play different types of games, but without the amount of time spent and sense of competition of a hardcore gamer. The mid-core gamer enjoys games but may not finish every game they buy, doesn't have time for long <abbr title="Massively Multiplayer Online">MMO</abbr> quests, and is a target consumer. Nintendo president <em>Satoru Iwata</em> stated that they designed the Wii U to cater to core gamers who are in between the casual and hardcore categories.
+						</p>
+					</blockquote>
 			</article>
-		
-			<h3 id="hardcore">Hardcore Gamer</h3>
-			<a href="images/hardcore_gamer.jpg">
-				<figure>
-					<img src="images/hardcore_gamer.jpg"
-						alt="He's about to go super saiyan">
-				</figure>
-			</a>
 			<article>
-				<blockquote>
-				<p>Hardcore gamers spend a good amount of their time playing video games, often have the latest consoles/high-end <abbr title="Personal Computer">PCs</abbr>, and are usually technologically savvy. In addition, they prefer to play games that have depth and complexity and often seek out game-related information.
-				</p>
-				</blockquote>
+				<h3 id="hardcore">Hardcore Gamer</h3>
+				<a href="images/hardcore_gamer.jpg">
+					<figure>
+						<img src="images/hardcore_gamer.jpg"
+							alt="He's about to go super saiyan">
+					</figure>
+				</a>
+					<blockquote>
+						<p>Hardcore gamers spend a good amount of their time playing video games, often have the latest consoles/high-end <abbr title="Personal Computer">PCs</abbr>, and are usually technologically savvy. In addition, they prefer to play games that have depth and complexity and often seek out game-related information.
+						</p>
+					</blockquote>
 			</article>
 		
 			<p class="ref">Information retrieved from: http://en.wikipedia.org/wiki/Gamer</p>	
@@ -129,13 +128,8 @@
 			</table>
 			
 			<p class="ref">	Information retrieved from: http://www.statista.com/statistics/232383/gender-split-of-us-computer-and-video-gamers/</p>
-			
-			<form action="thx.html">
-			<h2>Contribute!</h2>
-				<input type="submit">
-			</form>
-		</section>
-
+		</section>	
+		
 		<aside>		
 			<nav>	
 				<h2 id="nav_head">Navigation</h2>
@@ -147,6 +141,26 @@
 				</ul>
 			</nav>
 		</aside>	
+	
+		<form action="thx.html">
+		<h2>Contribute to the stats!</h2>
+		
+			<label for="age" class="title">Your age:</label><input type="number" name="age" id="age" required="required">
+			<br/>
+			<label for="gender" class="title gender">Gender:</label><input type="radio" name="gender" value="male" class="gender" id="gender">M	
+			<input type="radio" name="gender" value="female" class="gender"/>F	
+			<br/>
+			<label for="hours" class="title">How many hours do you game per week?</label> <br/>
+				<select name="hours" id="hours">
+					<option value="1">1-5</option>
+					<option value="2">6-18</option>
+					<option value="3">19+</option>
+				</select>	
+			<input type="email" name="email" class="email" placeholder="example@email.com">
+			<textarea rows="4" cols="50" id="comments" placeholder="Do you have any comments?"></textarea>
+			<br/>			
+			<input type="submit" id="submitBtn">
+		</form>
 		
 		<footer>
 			<a href="#top" id="topLink">Top of the page</a>
