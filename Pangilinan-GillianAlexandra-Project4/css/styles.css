@@ -120,6 +120,11 @@ tr:hover td, tr:hover th, tr:hover .F, tr:hover .M{
 	background-color: #252525;
 }
 
+th{
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
 th, td{
 	padding: 5px;
 	width: 85px;
@@ -148,6 +153,8 @@ th, td{
 }
 
 .yr{
+	padding-left: 10px;
+	padding-right: 10px;
 	width: 50px;
 	text-align: center;
 }
